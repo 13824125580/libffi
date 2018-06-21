@@ -6,7 +6,7 @@
 
 int main() {
   //拿函数指针
-  void *lib_handle   = dlopen("./test_return.so", RTLD_NOW|RTLD_GLOBAL);
+  void *lib_handle  = dlopen("./test_return.so", RTLD_NOW|RTLD_GLOBAL);
   void* functionPtr = dlsym(lib_handle, "testFunc");
   int argCount = 2;
 
