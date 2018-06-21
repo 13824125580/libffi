@@ -167,11 +167,11 @@ AWK = gawk
 CC = gcc
 CCAS = gcc
 CCASDEPMODE = depmode=gcc3
-CCASFLAGS = 
+CCASFLAGS = -O0 -g
 CCDEPMODE = depmode=gcc3
-CFLAGS = -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2  -Wall -fexceptions
+CFLAGS = -O0 -g  -Wall -fexceptions
 CPP = gcc -E
-CPPFLAGS = 
+CPPFLAGS = -g -O0
 CXX = g++
 CXXCPP = g++ -E
 CXXDEPMODE = depmode=gcc3
@@ -275,7 +275,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /home/zilong/WorkSpace/ffi/libffi-test/libs
+prefix = /home/zilong/WorkSpace/ffi/libffi-test/libs/lib
 program_transform_name = s,x,x,
 psdir = ${docdir}
 sbindir = ${exec_prefix}/sbin

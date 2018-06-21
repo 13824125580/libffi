@@ -362,7 +362,7 @@ CCAS = gcc
 CCASDEPMODE = depmode=gcc3
 CCASFLAGS = 
 CCDEPMODE = depmode=gcc3
-CFLAGS = -O3 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2  -Wall -fexceptions
+CFLAGS = -O0 -fomit-frame-pointer -fstrict-aliasing -ffast-math -march=core2  -Wall -fexceptions -g
 CPP = gcc -E
 CPPFLAGS = 
 CXX = g++
@@ -3689,4 +3689,11 @@ dist-hook dist-hook-all:
 	; do test -f "$$f" && mv "$$f" $(PUB). ; done ; break ; done
 
 #### CONFIGURATIONS FOR TOPLEVEL MAKEFILE: 
+#### ...... x86_64-unknown-linux-gnu
+#### ...... x86_64-unknown-linux-gnu
+#### ...... x86_64-unknown-linux-gnu
+#### ...... x86_64-unknown-linux-gnu
+#### ...... x86_64-unknown-linux-gnu
+#### ...... x86_64-unknown-linux-gnu
+#### ...... x86_64-unknown-linux-gnu
 #### ...... x86_64-unknown-linux-gnu

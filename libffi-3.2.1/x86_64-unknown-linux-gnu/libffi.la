@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/zilong/WorkSpace/ffi/libffi-test/libs/lib/../lib'
+libdir='/home/zilong/WorkSpace/ffi/libffi-test/libs/lib/lib/../lib'
